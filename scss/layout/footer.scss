@@ -1,0 +1,14 @@
+footer {
+	background-color: $orange2;
+	color: #fff;
+
+	.container {
+		background-color: $orange;
+		padding: $container;
+		border-right: 10px solid #fff;
+		border-left: 10px solid #fff;
+	}
+	p {
+		font-family: "HelveticaNeue"
+	}
+}

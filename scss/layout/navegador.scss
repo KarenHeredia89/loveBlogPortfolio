@@ -1,0 +1,41 @@
+@import "../helpers/_mixins";
+@include fontFace('Bebas','../font/bebas___-webfont');
+@include fontFace('HelveticaNeue','../font/HelveticaNeue');
+
+$text-d: none;
+$orange: #E8663C;
+$orange2: #F3AF9D;
+
+body {
+	font-family:'Bebas';
+}
+.navbar-header {
+	
+	h1 {
+		color:$orange;
+		text-decoration: $text-d;
+		margin-top: 0;
+		padding-top: 0;
+	}
+	a {
+		margin-bottom: 10px;
+
+		a:hover {
+			color:$orange;
+			text-decoration: $text-d;
+		}
+	}
+	span {
+		color: $orange2;
+	}
+}
+.navbar-default {
+	background-color: white!important;
+	border: transparent;
+}
+.navbar-right {
+
+	a:hover {
+		color: $orange!important;
+	}
+}

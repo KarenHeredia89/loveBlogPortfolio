@@ -1,0 +1,69 @@
+#blog {
+	padding: $container;
+
+	img {
+		position: absolute;
+		display: inline-block;
+	}
+	.featured {
+	    background: $orange url("../images/f_hover.png") no-repeat scroll center;
+	}
+	.featured_img:hover {
+		opacity: 0.2;
+	}
+	.quote {
+	    background: url("../images/quote_bg.png") repeat scroll 0 0 rgba(0,0,0,0);
+	    padding: 20px;
+	    margin-bottom: 55px;
+
+		p {
+		background: url("../images/quote.png") no-repeat scroll left top rgba(0,0,0,0);
+	    padding-left: 35px;
+	    padding-top: 15px;
+		}
+	}
+	.post {
+
+		img {
+		position: relative;
+		
+		}
+		h5, h2 {
+			color: $orange;
+		}
+		h6 {
+			color: $gray;
+		}
+		p {
+			font-family: "HelveticaNeue";
+		}
+		div {
+
+			.image {
+				margin: 40px 0 10px;
+				height: 30px;
+				background-image: url(../images/heading-bg.png);
+		    	background-repeat: repeat-x;
+			}
+		}
+	}
+}
+.paginas {
+	a {
+		color: #fff;
+	}
+	li {
+		background-color: $orange;
+		list-style: $text-d;
+		display: inline-block;
+		margin-right: 30px;
+		padding: 10px;
+
+		&:hover {
+			opacity: 0.2;
+			color: #fff;
+			text-decoration: $text-d;
+		}
+	}
+}
+

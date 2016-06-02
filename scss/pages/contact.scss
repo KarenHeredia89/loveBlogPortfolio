@@ -1,0 +1,30 @@
+#contact {
+	padding: $container;
+
+	.text-contact {
+		margin-top: 40px;
+		font-family: "HelveticaNeue";
+
+		h5 {
+			color: $orange;
+		}
+		li {
+			list-style: $text-d;
+		}
+		form {
+			font-family: "BEBAS";
+			color: $orange;
+
+			.form-control {
+				border-color: $orange;
+			}
+		}
+		.btn-danger {
+			background-color: $orange;
+
+			&:hover {
+				background-color: $orange2;
+			}
+		}
+	}
+}

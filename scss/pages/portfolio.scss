@@ -1,0 +1,38 @@
+#categories {
+	padding: $container;
+
+	ul {
+		li {
+			list-style-type: $text-d;
+			position: relative;
+			display: inline-block;
+			margin-left: 20px;
+		}
+		a {
+			color: $gray;
+
+			&:hover {
+				text-decoration: $text-d;
+				background-color: $orange;
+				padding: 10px;
+				color: #fff;
+			}
+		}
+	}
+}
+#thumbnail {
+	padding: $container;
+
+		h4 {
+			color: $gray;
+		}
+		h5 {
+			color: $orange;
+		}
+		.text-thumbnail {
+			border: 1px solid #eee;
+		    padding: 6px;
+		    margin-top: -10px;
+		    margin-bottom: 30px;
+		}
+}

@@ -1,0 +1,59 @@
+#about-us {
+	padding-top: 40px;
+
+	img {
+		float: left;
+		margin-right: 50px;
+	}
+	p {
+		font-family: "HelveticaNeue";
+	}
+	
+	
+	.text-red {
+		border-left: 10px solid $orange;
+		margin: 50px;
+		color: $orange;
+		padding: 10px;
+	}
+
+}
+.about-jetro {
+
+	p {
+		font-family: "HelveticaNeue";
+	}
+	span {
+    	margin-left: -120px;
+	}
+	li {
+		list-style-type: $text-d;
+		line-height: 1.7;
+		font-family: "HelveticaNeue";
+		margin-left: -35px;
+
+		a {
+		color: $gray;
+		
+			&:hover {
+				text-decoration: $text-d;
+				color: $orange;
+			}
+		}
+	}
+	h2 {
+		color: $orange;
+	    font-size: 18px;
+	    margin-left: 120px;
+	    line-height: 20px;
+	    margin-bottom: 30px;
+	    background-image: url(../images/heading-bg.png);
+	    background-repeat: repeat-x;
+	}
+	.cuadro-orange {
+		img {
+			margin: 5px 0px 5px -15px;
+			border: 1px solid $orange;
+		}
+	}
+}
